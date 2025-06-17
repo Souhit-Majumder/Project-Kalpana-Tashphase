@@ -1,7 +1,15 @@
 /*******************************************************************************************************************************
 Controlling LED Brightness with a Button (3 Levels)
 
-Control the brightness of an LED using a button. Cycle through 3 brightness levels (low, medium, high) with each button press.
+Controls the brightness of an LED using a button. Cycle through 3 brightness levels (low, medium, high) with each button press.
+
+Components used:  1) Arduino Uno R3
+                  2) Mini-BreadBoard
+                  3) LED
+                  4) 2x 220 ohm resistors
+                  5) Push Button Switch
+                  6) Connecting Wires
+
 *******************************************************************************************************************************/
 
 const int ledPin = 11;
