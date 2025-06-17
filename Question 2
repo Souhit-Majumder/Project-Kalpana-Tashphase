@@ -1,7 +1,14 @@
 /*******************************************************************************************************************************
 4-Bit Up Counter Using LEDs
 
-Create a 4-bit up counter using LEDs. It should count from 0 to 15, lighting up LEDs in binary.
+Creates a 4-bit up counter using LEDs. Counts from 0 to 15, lighting up LEDs in binary.
+
+Components used:  1) Arduino Uno R3
+                  2) Mini-BreadBoard
+                  3) 4x LED
+                  4) 4x 220 ohm resistors
+                  5) Connecting Wires
+
 *******************************************************************************************************************************/
 
 enum {
