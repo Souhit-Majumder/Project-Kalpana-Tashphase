@@ -1,7 +1,15 @@
 /*******************************************************************************************************************************
 7-Segment Display Counter (1 to 1000 and back to 1)
 
-Use a 7-segment display to count from 1 to 1000 and then back to 1 in a loop.
+Uses a 7-segment display to count from 1 to 1000 and then back to 1 in a loop.
+
+Components used:  1) Arduino Uno R3
+                  2) Mini-BreadBoard
+                  3) 8-bit shift register - 74HC595
+                  4) 4x 220 ohm resistors
+                  5) 4x seven segment displays
+                  6) Connecting Wires
+
 *******************************************************************************************************************************/
 
 #define DATA 6      
